@@ -34,12 +34,12 @@ local function createCoreGUI()
     titleLabel.Position = UDim2.new(0, 0, 0, 0)
     titleLabel.Text = "FGR CHEAT V2"
     titleLabel.TextColor3 = Color3.fromRGB(0, 0, 0)  -- Черный цвет текста
-    titleLabel.BackgroundColor3 = Color3.fromRGB(255, 165, 0)  -- Оранжевый фон для Label
+    titleLabel.BackgroundColor3 = Color3.fromRGB(255, 105, 0)  -- Неоновый оранжевый фон для Label
     titleLabel.BorderSizePixel = 0
     titleLabel.Font = Enum.Font.GothamBold
     titleLabel.TextScaled = true
     titleLabel.TextStrokeTransparency = 0.7
-    titleLabel.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)  -- Черный контур
+    titleLabel.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)  -- Белый контур для выделения
     titleLabel.Parent = mainFrame
 
     -- Кнопка закрытия
